@@ -1,15 +1,12 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ksm26/ksm.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am currently an Research Engineer at [INRIA](https://team.inria.fr/chroma/en/), Grenoble, France. Previously, I completed MSc studies with [EIT Digital Master School](https://masterschool.eitdigital.eu/programmes/aus/). My Major was [Autonomous Systems](https://masterschool.eitdigital.eu/programmes/aus/) and minor is Innovation and Entrepreneurship. I completed my masters' thesis at [Bethge Lab](http://bethgelab.org/) on 'Improving Robustness in Reinforcement Learning using self-supervised learning', worked with PhD candidate [Steffen Schneider](https://stes.io/).
+              
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+Interests
 
 # Header 1
 ## Header 2
@@ -23,10 +20,14 @@ wew
 wewefdw
 wefwef
 2. List
+![mypicture](https://user-images.githubusercontent.com/24546547/177534635-036f532c-2436-40d6-8091-3bba0bcbacf1.png)
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+![quadcopter](https://user-images.githubusercontent.com/24546547/177535160-7ecaa4f6-0a69-4a8e-8484-06409b54927c.png)
+[Link](url)
+
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
