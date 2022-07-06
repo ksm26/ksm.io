@@ -20,18 +20,20 @@ wew
 wewefdw
 wefwef
 2. List
-![mypicture](https://user-images.githubusercontent.com/24546547/177534635-036f532c-2436-40d6-8091-3bba0bcbacf1.png)
+
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-![quadcopter](https://user-images.githubusercontent.com/24546547/177535160-7ecaa4f6-0a69-4a8e-8484-06409b54927c.png)
-[Link](url)
+![mypicture](https://user-images.githubusercontent.com/24546547/177534635-036f532c-2436-40d6-8091-3bba0bcbacf1.png)
 
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
+
+![quadcopter](https://user-images.githubusercontent.com/24546547/177535160-7ecaa4f6-0a69-4a8e-8484-06409b54927c.png)
+[Link](url)
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ksm26/ksm.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
