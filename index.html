@@ -24,7 +24,7 @@
                 I completed my masters' thesis at <a href="http://bethgelab.org/">Bethge Lab</a> on 'Improving Robustness in Reinforcement Learning using self-supervised learning', worked with PhD candidate <a href="https://stes.io/">Steffen Schneider</a>.
               </p>
 
-	      <!-- LINK TO ALL WEBSITES -->
+	      <!------------------------------------------- LINK TO ALL WEBSITES ------------------------------------------------------------------->
 		    
               <p style="text-align:center">
                 <a href="mailto:khushdeepvnit@gmail.com">Email</a> &nbsp/&nbsp
@@ -41,7 +41,7 @@
           </tr>
 		
 		
-	<!-- RESEARCH EXPERIENCE -->
+	<!----------------------------------------------- RESEARCH EXPERIENCE ---------------------------------------------------------->
 		
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -49,32 +49,38 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Representative papers are <span class="highlight">highlighted</span>.
+                I'm interested in Computer Vision, Deep Learning and Reinforcement Learning. Representative papers are <span class="highlight">highlighted</span>.
               </p>
             </td>
           </tr>
         </tbody></table>
+	      
+	      
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          
+		
+	<tr onmouseout="IV22_stop()" onmouseover="IV22_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='malle_image'>
-                  <img src='images/MalleConv_after.jpg' width="160"></div>
-                <img src='images/MalleConv_before.jpg' width="160">
+                <div class="two" id='IV22_animation'>
+                  <img src='images/IV22.gif' width="160"></div>
+              <div id='IV22_still'><img src="images/IV22_still.jpeg" width=100%></div>
               </div>
               <script type="text/javascript">
-                function malle_start() {
-                  document.getElementById('malle_image').style.opacity = "1";
-                }
+                function IV22_start() {
+                      document.getElementById('IV22_animation').style.display = 'inline';
+                      document.getElementById('IV22_still').style.display = 'none';
+                    }
 
-                function malle_stop() {
-                  document.getElementById('malle_image').style.opacity = "0";
-                }
-                malle_stop()
+                function IV22_stop() {
+                      document.getElementById('IV22_animation').style.display = 'none';
+                      document.getElementById('IV22_still').style.display = 'inline';
+                    }
+                IV22_stop()
               </script>
             </td>
 		  
-	    <!-- RESEARCH PAPERS  1 --> 
+	    <!---------------------------------------------- RESEARCH PAPERS  1 -------------------------------------------------------> 
 		  
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://ksm26.github.io/OccupancyGrid-Predictions/">
@@ -85,10 +91,13 @@
               <a href="https://bartwronski.com/">Bartlomiej Wronski</a>, 
 							<a href="https://bmild.github.io/">Ben Mildenhall</a>, <br>
               <strong>Khushdeep Singh Mann</strong>,
-              <a href="https://spark.adobe.com/page/CAdrFMJ9QeI2y/">Zhangyang Wang</a>,
-              <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>
+              <a href="https://scholar.google.com/citations?user=Q8aj04wAAAAJ&hl=en">Abhishek Tomy</a>,
+	      <a href="https://anshulpaigwar.github.io/">Anshul Paigwar</a>,
+	      <a href="https://sites.google.com/site/arenzaglia/">Alessandro Renzaglia</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+
               <br>
-              <em>IV</em>, 2022
+              <em>IEEE Intelligent Vehicles (IV) Symposium </em>, 2022, Aachen, Germany
               <br>
               <a href="https://ksm26.github.io/OccupancyGrid-Predictions/">project page</a> /
               <a href="https://arxiv.org/pdf/2205.03212.pdf">arXiv</a> /
@@ -96,7 +105,7 @@
 	      <a href="https://github.com/ksm26/OccupancyGrid-Predictions">code</a>
               <p></p>
               <p>
-              We denoise images efficiently by predicting spatially-varying kernels at low resolution and using a fast fused op to jointly upsample and apply these kernels at full resolution.
+              We propose a spatio-temporal prediction network pipeline that takes the past information from the environment and semantic labels separately to predict occupancy for a longer horizon of 3 seconds and in a relatively complex environment.
               </p>
             </td>
           </tr>
@@ -123,7 +132,7 @@
             </td>
 		  	
 		  
-	    <!-- RESEARCH PAPERS  2 -->  
+	    <!----------------------------------------------- RESEARCH PAPERS  2 ------------------------------------------------------------->  
 		  
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://abhishek1411.github.io/event-rgb-fusion/">
