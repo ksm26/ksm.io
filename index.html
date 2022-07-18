@@ -172,8 +172,8 @@
           <tr onmouseout="ICLR21_stop()" onmouseover="ICLR21_start()">
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='ICLR21'>
-                  <img src='images/ICLR21.png' width="100">
+                <div class="two" id='ICLR21'><video width=100% muted autoplay loop>
+                  <source src="images/ICLR21.png" type="video/mp4">
 		</div>
               <div id='ICLR21_still'><img src="images/ICLR21.png" width=100%></div>
               </div>
@@ -359,9 +359,9 @@
                 <papertitle>Autonomous Smart Factory: Assembly and Warehousing</papertitle>
               </a>
               <br>
-		    <a href="">Tor Istvan Stadler Kjets ̊a</a>,
-		    <a href="">Tim Allen</a>,
-		    <a href="">Sangeetha Reji</a>,
+		    <a>Tor Istvan Stadler Kjets ̊a</a>,
+		    <a>Tim Allen</a>,
+		    <a>Sangeetha Reji</a>,
 		    <strong>Khushdeep Singh Mann</strong>
               <br>
               <em>Distributed Artificial Intelligence Laboratory (DAI-Labor), TU Berlin</em>, 2019, Berlin, Germany
@@ -420,7 +420,90 @@
           </tr>
 
 	  
-	  <!---------------------------------------------- AUTONOMOUS WAREHOUSING SYSTEM ------------------------------------------------------->
+	  <!---------------------------------------------- quad robot ------------------------------------------------------->
+	  
+	  <tr onmouseout="quad_stop()" onmouseover="quad_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='quadvid'><video width=100% muted autoplay loop>
+                  <source src="images/quad.mp4" type="video/mp4">
+		</div>
+              <div id='quad'><img src="images/quad.png" width=100%></div>
+              </div>
+              <script type="text/javascript">
+                function quad_start() {
+                      document.getElementById('quadvid').style.display = 'inline';
+                      document.getElementById('quad').style.display = 'none';
+                    }
+
+                function quad_stop() {
+                      document.getElementById('quad').style.display = 'none';
+                      document.getElementById('quadvid').style.display = 'inline';
+                    }
+                quad_stop()
+              </script>
+            </td>
+		  
+	     
+		  
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:70%;vertical-align:middle">
+              <a <papertitle>Design and Control of Quadcopter</papertitle>
+              </a>
+              <br>
+	      <a href="https://scholar.google.com/citations?user=oY5-d8AAAAAJ&hl=en">Parag Khanna</a>
+	      <strong>Khushdeep Singh Mann</strong>
+              <br>
+              <em>Visvesvaraya National Institute of Technology (VNIT),</em>, 2015, Nagpur, India
+              <br>
+		<a href="https://www.youtube.com/watch?v=JtWZkULuiWw">video</a> /
+              <p></p>
+              <p> A quad copter capable of doing standard maneuvers  </p>
+            </td>
+          </tr>
+
+
+<!---------------------------------------------- biped robot ------------------------------------------------------->
+	  
+	  <tr onmouseout="biped_stop()" onmouseover="biped_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='bipedvid'><video width=100% muted autoplay loop>
+                  <source src="images/biped.mp4" type="video/mp4">
+		</div>
+              <div id='biped'><img src="images/biped.jpg" width=100%></div>
+              </div>
+              <script type="text/javascript">
+                function biped_start() {
+                      document.getElementById('bipedvid').style.display = 'inline';
+                      document.getElementById('biped').style.display = 'none';
+                    }
+
+                function biped_stop() {
+                      document.getElementById('biped').style.display = 'none';
+                      document.getElementById('bipedvid').style.display = 'inline';
+                    }
+                biped_stop()
+              </script>
+            </td>
+		  
+	     
+		  
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:70%;vertical-align:middle">
+              <a <papertitle>Design and Control of Biped Robot</papertitle>
+              </a>
+              <br>
+	      <a href="https://scholar.google.com/citations?user=oY5-d8AAAAAJ&hl=en">Parag Khanna</a>
+	      <strong>Khushdeep Singh Mann</strong>
+	      <a>Akhilesh Patil </a>
+              <br>
+              <em>Visvesvaraya National Institute of Technology (VNIT),</em>, 2014, Nagpur, India
+              <br>
+		<a href="https://www.youtube.com/watch?v=WmCKMqNgFoY">video</a> /
+              <p></p>
+              <p> A 6 DoF biped robot capable of walking </p>
+            </td>
+          </tr>
+
 	
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
