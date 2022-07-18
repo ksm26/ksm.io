@@ -112,6 +112,64 @@
           </tr>
 				
 	
+		
+		
+		<tr onmouseout="icra2022_stop()" onmouseover="icra2022_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='icra22_video'><video width=100% muted autoplay loop>
+                        <source src="images/ICRA22_video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <div class="two" id='icra22_still'><img src='images/ICRA22_still.png' width=100%></div>
+
+                  </div>
+                  <script type="text/javascript">
+                    function icra2022_start() {
+                      document.getElementById('icra22_video').style.display = 'inline';
+                      document.getElementById('icra22_still').style.display = 'none';
+                    }
+
+                    function icra2022_stop() {
+                      document.getElementById('icra22_video').style.display = 'none';
+                      document.getElementById('icra22_still').style.display = 'inline';
+                    }
+                    icra2022_stop()
+                  </script>
+                </td>
+
+
+                <td style="padding:20px;width:70%;vertical-align:middle">
+                  <a href="https://hal.archives-ouvertes.fr/hal-03591717/">
+                    <papertitle>Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://scholar.google.com/citations?user=Q8aj04wAAAAJ&hl=en">Abhishek Tomy</a>,
+                  <strong>Anshul Paigwar</strong>,
+                  <a href="https://khushdeep-singh.github.io/khushdeep.io/">Khushdeep Singh Mann</a>,
+                  <a href="https://sites.google.com/site/arenzaglia/">Alessandro Renzaglia</a>,
+                  <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+
+                  <br>
+                  <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2022, Philadelphia, United
+                  States.
+                  <br>
+                  <a href="https://hal.archives-ouvertes.fr/hal-03591717/">pdf</a>
+                  /
+                  <a href="https://github.com/abhishek1411/event-rgb-fusion">code</a>
+                  /
+                  <a href="https://www.youtube.com/watch?v=2nrqhiiXJwY">results video</a>
+                  <p></p>
+                  <p>We propose a redundant sensor fusion model of event-based and frame-based cameras that is robust to
+                    common image
+                    corruptions. Our sensor fusion approach is over <strong>30% more robust to corruptions </strong>
+                    compared to only frame-based detections and
+                    outperforms the only event-based detection.</p>
+                </td>
+              </tr>
+		
+		
 	  <!----------------------------------------------- PAPER ICRA 2022 ------------------------------------------------------------->  
 		
           <tr onmouseout="ICRA22_stop()" onmouseover="ICRA22_start()">
